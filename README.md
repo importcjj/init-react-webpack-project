@@ -21,4 +21,4 @@
 ###Useage
 	 python proton.py --dir <project_dir>
 	 
-####Argument *--dir* is used to specify the project diretory.
+####Argument *--dir* is used to specify the project directory.
