@@ -9,9 +9,9 @@
 
 ##🏠Initial Organization
 
-* build
+* build/
 	* entry.js
-* node_modules
+* node_modules/
 * index.html
 * entry.js
 * index.css
