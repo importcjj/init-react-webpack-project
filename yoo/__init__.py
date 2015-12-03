@@ -45,11 +45,11 @@ devDependencies = [
 index = """<!DOCTYPE html>
 <html>
 <head>
-    <title>Proton</title>
+    <title>Fo</title>
 </head>
 <body>
 <div id="hello-react"></div>
-<h4>Created by proton</h4>
+<h4>Created by Fo</h4>
 <script type="text/javascript" src="./build/entry.js"></script>
 </body>
 </html>
@@ -62,7 +62,7 @@ var ReactDOM = require('react-dom');
 
 var HelloProton = React.createClass({
     render: function () {
-        return <h1>Hello Proton</h1>
+        return <h1>Hello Fo</h1>
     }
 });
 
