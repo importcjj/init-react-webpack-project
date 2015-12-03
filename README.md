@@ -28,7 +28,7 @@
 ###Installation
 	pip install proton
 
-###Useage
+###Usage
 	 proton --dir <project_dir_url>
 	 
 ####Argument *--dir* is used to specify the project directory.
