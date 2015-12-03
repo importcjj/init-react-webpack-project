@@ -83,7 +83,9 @@ body {
 """
 
 
-def main(project_dir):
+def main():
+    args = parser.parse_args()
+    project_dir = args.project_dir
     try:
         os.chdir(project_dir)
     except OSError:
@@ -104,6 +106,4 @@ def main(project_dir):
     subprocess.call(['webpack'])
 
 if __name__ == '__main__':
-    args = parser.parse_args()
-    project_dir = args.project_dir
-    main(project_dir)
+    main()
