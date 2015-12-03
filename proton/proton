@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-from proton import main
+from proton import (
+    main,
+    parser
+)
 
-main()
+args = parser.parse_args()
+project_dir = args.project_dir
+
+
+main(project_dir)

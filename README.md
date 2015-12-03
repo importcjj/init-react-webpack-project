@@ -12,13 +12,23 @@
 * build/
 	* entry.js
 * node_modules/
+	* css-loader/
+	* file-loader/
+	* jsx-loader/
+	* react/
+	* react-dom/
+	* style-loader/
+	* url-loader/
 * index.html
 * entry.js
 * index.css
 * package.json
 * webpack.config.js 
 
+###Installation
+	pip install proton
+
 ###Useage
-	 python proton.py --dir <project_dir>
+	 proton --dir <project_dir_url>
 	 
 ####Argument *--dir* is used to specify the project directory.
