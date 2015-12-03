@@ -31,4 +31,4 @@
 ###Usage
 	 yoo --dir <project_dir_url>
 	 
-####Argument *--dir* is used to specify the project directory.
+######Argument *--dir* is used to specify the project directory. Default is PWD.
