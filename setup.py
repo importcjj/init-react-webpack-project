@@ -4,7 +4,7 @@ requires = []
 
 setup(
     name="yoo",
-    version="0.1",
+    version="0.1.1",
     description="react develop helper",
     long_description="help you to initial a react webpack project",
     url="https://github.com/importcjj/init-react-webpack-project",
