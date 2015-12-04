@@ -98,6 +98,7 @@ def main(project_dir):
         f.write(index)
     with open('index.css', 'w') as f:
         f.write(css)
+    os.mkdir('components')
 
     subprocess.call(['npm', 'init'])
     subprocess.call(['npm', 'install', '--save-dev'] + devDependencies)
